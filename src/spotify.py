@@ -13,6 +13,11 @@ artists = df["artists"].value_counts().index
 artist = st.selectbox("Artista", artists)
 df_filtered = df[df["artists"] == artist]
 
+albuns = df_filtered["album"].value_counts().index
+album = st.selectbox("Album", albuns)
 
+df_filtered2 = df[df["album"] == album]
+display = st.checkbox("Grafico")
+if display:
+    st.bar_chart(df_filtered2["popularity"])
 
-st.bar_chart(df_filtered["popularity"])
