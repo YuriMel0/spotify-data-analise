@@ -1,19 +1,22 @@
-# Spotify Popularidade Dashboard
+# Spotify Data Analysis Dashboard
 
-## Descrição
+This repository contains a project that analyzes music data from Spotify and presents an **interactive dashboard**.  
+The dashboard highlights the most popular songs of each artist by album, allowing for a detailed analysis of music trends.
 
-Este projeto utiliza dados do Kaggle sobre músicas do Spotify para criar um dashboard interativo que mostra as músicas mais populares de cada artista por álbum. O projeto utiliza a biblioteca `pandas` para manipulação e filtragem de dados, e o `Streamlit` para visualização e criação de gráficos interativos.
+## Features
 
-## Funcionalidades
+- Filter songs by artist and album
+- Display popularity metrics of songs
+- Interactive charts and graphs
+- Data cleaning and preprocessing using Python
 
-- **Filtragem de Dados**: Utiliza `pandas` para filtrar e processar os dados, permitindo visualizações específicas e análise aprofundada.
-- **Dashboard Interativo**: Desenvolvido com `Streamlit` para exibir gráficos interativos das músicas mais populares por álbum de cada artista.
-- **Gráficos de Popularidade**: Visualize as músicas mais populares e suas respectivas popularidades por álbum.
+## Technologies Used
 
-## Requisitos
+- **Python**  
+- **Pandas** for data manipulation and filtering  
+- **Streamlit** for creating interactive dashboards  
 
-- Python 3.7+
-- pandas
-- streamlit
+
+
 
 
